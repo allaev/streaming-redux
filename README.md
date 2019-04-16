@@ -1,4 +1,4 @@
-# streaming-redux
+# streaming-redux ![CI status](https://img.shields.io/badge/style-flat-green.svg?longCache=true&style=flat) ![CI status](https://img.shields.io/badge/top%20language-Javascript-yellow.svg)
 
 REST-based React app for streaming video with a backend server
 
@@ -13,6 +13,7 @@ REST-based React app for streaming video with a backend server
 - JSON Server
 - Node-Media-Server
 - FLVjs
+- Semantic UI
 
 ### Getting Started
 
@@ -32,3 +33,5 @@ Server: rtmp://localhost/live
 Stream Key: (ID number of the stream that you have created)
 ```
 Press "Start Streaming" in OBS and refresh the page with the stream
+
+![streaming-redux](https://user-images.githubusercontent.com/34710484/55389927-9f9aa400-554f-11e9-8f9c-7916b935a93c.png)
