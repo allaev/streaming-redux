@@ -1,0 +1,291 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`expect to render Header Component 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Header />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="ui secondary pointing menu"
+      >
+        <Link
+          className="item"
+          replace={false}
+          to="/"
+        >
+          Streaming-Redux
+        </Link>
+        <div
+          className="right menu"
+        >
+          <Link
+            className="item"
+            replace={false}
+            to="/"
+          >
+            All Streams
+          </Link>
+          <Connect(GoogleAuth) />
+        </div>
+      </div>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Link
+            className="item"
+            replace={false}
+            to="/"
+          >
+            Streaming-Redux
+          </Link>,
+          <div
+            className="right menu"
+          >
+            <Link
+              className="item"
+              replace={false}
+              to="/"
+            >
+              All Streams
+            </Link>
+            <Connect(GoogleAuth) />
+          </div>,
+        ],
+        "className": "ui secondary pointing menu",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": "Streaming-Redux",
+            "className": "item",
+            "replace": false,
+            "to": "/",
+          },
+          "ref": null,
+          "rendered": "Streaming-Redux",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Link
+                className="item"
+                replace={false}
+                to="/"
+              >
+                All Streams
+              </Link>,
+              <Connect(GoogleAuth) />,
+            ],
+            "className": "right menu",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "All Streams",
+                "className": "item",
+                "replace": false,
+                "to": "/",
+              },
+              "ref": null,
+              "rendered": "All Streams",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="ui secondary pointing menu"
+        >
+          <Link
+            className="item"
+            replace={false}
+            to="/"
+          >
+            Streaming-Redux
+          </Link>
+          <div
+            className="right menu"
+          >
+            <Link
+              className="item"
+              replace={false}
+              to="/"
+            >
+              All Streams
+            </Link>
+            <Connect(GoogleAuth) />
+          </div>
+        </div>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <Link
+              className="item"
+              replace={false}
+              to="/"
+            >
+              Streaming-Redux
+            </Link>,
+            <div
+              className="right menu"
+            >
+              <Link
+                className="item"
+                replace={false}
+                to="/"
+              >
+                All Streams
+              </Link>
+              <Connect(GoogleAuth) />
+            </div>,
+          ],
+          "className": "ui secondary pointing menu",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "Streaming-Redux",
+              "className": "item",
+              "replace": false,
+              "to": "/",
+            },
+            "ref": null,
+            "rendered": "Streaming-Redux",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <Link
+                  className="item"
+                  replace={false}
+                  to="/"
+                >
+                  All Streams
+                </Link>,
+                <Connect(GoogleAuth) />,
+              ],
+              "className": "right menu",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": "All Streams",
+                  "className": "item",
+                  "replace": false,
+                  "to": "/",
+                },
+                "ref": null,
+                "rendered": "All Streams",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
